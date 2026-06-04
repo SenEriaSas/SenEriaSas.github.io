@@ -215,7 +215,8 @@
     }
 
     .navbar__logo-icon {
-      font-size: var(--fs-xl);
+      display: flex;
+      align-items: center;
       line-height: 1;
     }
 
@@ -1873,7 +1874,7 @@
     "name": "WebPilot",
     "description": "Hosting and website support for Romanian and Moldovan businesses.",
     "url": "https://webpilot.ro",
-    "telephone": "+373-XX-XXX-XXX",
+    "telephone": "+353852039835",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Chișinău",
@@ -1906,7 +1907,7 @@
     <nav class="navbar" role="navigation" aria-label="Main navigation">
 
       <a href="#" class="navbar__logo" aria-label="WebPilot home">
-        <span class="navbar__logo-icon" aria-hidden="true">✈</span>
+        <span class="navbar__logo-icon" aria-hidden="true"><svg width="28" height="22" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="1,5 18,1 35,5 18,9" fill="#a8a8a8"/><polygon points="1,15 18,11 35,15 18,19" fill="#787878"/><polygon points="1,25 18,21 35,25 18,29" fill="#525252"/></svg></span>
         <span class="navbar__brand">WebPilot</span>
       </a>
 
@@ -1949,12 +1950,11 @@
 
       <div class="hero__content">
         <h1 class="hero__title" data-i18n="hero.title">Your website in reliable hands</h1>
-        <p class="hero__subtitle" data-i18n="hero.subtitle">Hosting, support and website development for businesses in Romania and Moldova</p>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">Hosting, support and website development for businesses worldwide</p>
         <div class="hero__cta">
           <a href="#pricing" class="btn btn--primary" data-i18n="hero.cta1">Choose a plan</a>
           <a href="#website7" class="btn btn--secondary" data-i18n="hero.cta2">Website in 7 days</a>
         </div>
-        <p class="hero__proof" data-i18n="hero.proof">✦ Trusted by 48+ businesses in Romania &amp; Moldova</p>
       </div>
     </section>
 
@@ -2213,10 +2213,10 @@
             <div class="review-card__stars">★★★★★</div>
             <p class="review-card__text">"We switched to WebPilot 8 months ago. The site has not gone down once, and support responds within an hour. Highly recommend for small businesses."</p>
             <div class="review-card__author">
-              <span class="review-avatar" style="background:#3B82F6">AP</span>
+              <span class="review-avatar" style="background:#3B82F6">JC</span>
               <div>
-                <strong class="review-card__name">Andrei Popescu</strong>
-                <span class="review-card__role">Director, Florăria Elegance · Chișinău</span>
+                <strong class="review-card__name">James Carter</strong>
+                <span class="review-card__role">Director, Bloom & Co · Dublin</span>
               </div>
             </div>
           </div>
@@ -2224,10 +2224,10 @@
             <div class="review-card__stars">★★★★★</div>
             <p class="review-card__text">"I ordered a website in 7 days — got it in 6. The design is modern, looks great on mobile. Now on the Growth plan, very happy."</p>
             <div class="review-card__author">
-              <span class="review-avatar" style="background:#8B5CF6">EM</span>
+              <span class="review-avatar" style="background:#8B5CF6">SM</span>
               <div>
-                <strong class="review-card__name">Elena Munteanu</strong>
-                <span class="review-card__role">Founder, Studio Foto Elena · București</span>
+                <strong class="review-card__name">Sophie Moreau</strong>
+                <span class="review-card__role">Founder, Studio Lumière · Lyon</span>
               </div>
             </div>
           </div>
@@ -2235,10 +2235,10 @@
             <div class="review-card__stars">★★★★☆</div>
             <p class="review-card__text">"Good value for money. The SEO optimization showed results within 2 months — traffic grew by 40%. Technical support is competent."</p>
             <div class="review-card__author">
-              <span class="review-avatar" style="background:#10B981">DR</span>
+              <span class="review-avatar" style="background:#10B981">TW</span>
               <div>
-                <strong class="review-card__name">Dmitri Rusu</strong>
-                <span class="review-card__role">IT Manager, TechMold SRL · Chișinău</span>
+                <strong class="review-card__name">Thomas Weber</strong>
+                <span class="review-card__role">IT Manager, TechFlow GmbH · Berlin</span>
               </div>
             </div>
           </div>
@@ -2246,10 +2246,10 @@
             <div class="review-card__stars">★★★★★</div>
             <p class="review-card__text">"We finally found a team we can trust with our website and forget about problems. The backups saved us once — they restored everything in 30 minutes."</p>
             <div class="review-card__author">
-              <span class="review-avatar" style="background:#F59E0B">MI</span>
+              <span class="review-avatar" style="background:#F59E0B">LB</span>
               <div>
-                <strong class="review-card__name">Maria Ionescu</strong>
-                <span class="review-card__role">Owner, Cofetăria Dulce Viață · Iași</span>
+                <strong class="review-card__name">Laura Bennett</strong>
+                <span class="review-card__role">Owner, Sweet Bites Patisserie · London</span>
               </div>
             </div>
           </div>
@@ -2321,9 +2321,8 @@
               <span class="contact__icon" aria-hidden="true">📧</span>
               <div>
                 <div class="contact__info-label" data-i18n="contact.email_label">Email</div>
-                <!-- TODO: replace with real email -->
-                <a href="mailto:hello@webpilot.ro">hello@webpilot.ro</a>
-                <button type="button" class="copy-btn js-copy-btn" data-copy="hello@webpilot.ro" aria-label="Copy email address"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+                <a href="mailto:laurentiubani33@gmail.com">laurentiubani33@gmail.com</a>
+                <button type="button" class="copy-btn js-copy-btn" data-copy="laurentiubani33@gmail.com" aria-label="Copy email address"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
                 <span class="copy-tooltip" aria-live="polite"></span>
               </div>
             </div>
@@ -2331,9 +2330,8 @@
               <span class="contact__icon" aria-hidden="true">📱</span>
               <div>
                 <div class="contact__info-label" data-i18n="contact.phone_label">Phone</div>
-                <!-- TODO: replace with real phone number -->
-                <a href="tel:+37300000000">+373 XX XXX XXX</a>
-                <button type="button" class="copy-btn js-copy-btn" data-copy="+37300000000" aria-label="Copy phone number"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+                <a href="tel:+353852039835">+353 85 203 9835</a>
+                <button type="button" class="copy-btn js-copy-btn" data-copy="+353852039835" aria-label="Copy phone number"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
                 <span class="copy-tooltip" aria-live="polite"></span>
               </div>
             </div>
@@ -2404,7 +2402,7 @@
         <!-- Brand -->
         <div class="footer__brand">
           <a href="#hero" class="navbar__logo" aria-label="WebPilot home">
-            <span class="navbar__logo-icon" aria-hidden="true">✈</span>
+            <span class="navbar__logo-icon" aria-hidden="true"><svg width="28" height="22" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="1,5 18,1 35,5 18,9" fill="#a8a8a8"/><polygon points="1,15 18,11 35,15 18,19" fill="#787878"/><polygon points="1,25 18,21 35,25 18,29" fill="#525252"/></svg></span>
             <span class="navbar__brand">WebPilot</span>
           </a>
           <p class="footer__slogan" data-i18n="footer.slogan">Professional website care</p>
@@ -2413,12 +2411,10 @@
         <!-- Contact -->
         <div class="footer__contact">
           <p>
-            <!-- TODO: replace with real email -->
-            <a href="mailto:hello@webpilot.ro">hello@webpilot.ro</a>
+            <a href="mailto:laurentiubani33@gmail.com">laurentiubani33@gmail.com</a>
           </p>
           <p>
-            <!-- TODO: replace with real phone number -->
-            <a href="tel:+37300000000">+373 XX XXX XXX</a>
+            <a href="tel:+353852039835">+353 85 203 9835</a>
           </p>
         </div>
 
@@ -2457,7 +2453,7 @@
   <button id="scroll-top" class="scroll-top" aria-label="Back to top">↑</button>
 
   <!-- WhatsApp Floating Action Button -->
-  <a href="https://wa.me/37300000000" target="_blank" rel="noopener noreferrer"
+  <a href="https://wa.me/353852039835" target="_blank" rel="noopener noreferrer"
      class="whatsapp-fab" aria-label="Chat on WhatsApp">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="26" height="26" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
@@ -2517,10 +2513,10 @@
         'nav.reviews':     'Reviews',
         'nav.contact':     'Contact',
         'hero.title':      'Your website in reliable hands',
-        'hero.subtitle':   'Hosting, support and website development for businesses in Romania and Moldova',
+        'hero.subtitle':   'Hosting, support and website development for businesses worldwide',
         'hero.cta1':       'Choose a plan',
         'hero.cta2':       'Website in 7 days',
-        'hero.proof':      '✦ Trusted by 48+ businesses in Romania & Moldova',
+        'hero.proof':      '',
         'footer.slogan':   'Professional website care',
         'footer.copy':     '© 2026 WebPilot. All rights reserved.',
         // Services
@@ -2645,10 +2641,10 @@
         'nav.reviews':     'Recenzii',
         'nav.contact':     'Contact',
         'hero.title':      'Site-ul tău în mâini de încredere',
-        'hero.subtitle':   'Găzduire, suport și dezvoltare web pentru afaceri din România și Moldova',
+        'hero.subtitle':   'Găzduire, suport și dezvoltare web pentru afaceri din întreaga lume',
         'hero.cta1':       'Alege un plan',
         'hero.cta2':       'Site în 7 zile',
-        'hero.proof':      '✦ Aleși de peste 48 de afaceri din România și Moldova',
+        'hero.proof':      '',
         'footer.slogan':   'Îngrijire profesională pentru site-ul tău',
         'footer.copy':     '© 2026 WebPilot. Toate drepturile rezervate.',
         // Servicii
@@ -2773,10 +2769,10 @@
         'nav.reviews':     'Отзывы',
         'nav.contact':     'Контакты',
         'hero.title':      'Ваш сайт в надёжных руках',
-        'hero.subtitle':   'Хостинг, поддержка и разработка сайтов для бизнеса в Румынии и Молдове',
+        'hero.subtitle':   'Хостинг, поддержка и разработка сайтов для бизнеса по всему миру',
         'hero.cta1':       'Выбрать тариф',
         'hero.cta2':       'Сайт за 7 дней',
-        'hero.proof':      '✦ Нам доверяют 48+ бизнесов в Румынии и Молдове',
+        'hero.proof':      '',
         'footer.slogan':   'Профессиональный уход за вашим сайтом',
         'footer.copy':     '© 2026 WebPilot. Все права защищены.',
         // Услуги
@@ -2901,10 +2897,10 @@
         'nav.reviews':     'Відгуки',
         'nav.contact':     'Контакти',
         'hero.title':      'Ваш сайт у надійних руках',
-        'hero.subtitle':   'Хостинг, підтримка та розробка сайтів для бізнесу в Румунії та Молдові',
+        'hero.subtitle':   'Хостинг, підтримка та розробка сайтів для бізнесу по всьому світу',
         'hero.cta1':       'Обрати план',
         'hero.cta2':       'Сайт за 7 днів',
-        'hero.proof':      '✦ Нам довіряють 48+ бізнесів у Румунії та Молдові',
+        'hero.proof':      '',
         'footer.slogan':   'Професійний догляд за вашим сайтом',
         'footer.copy':     '© 2026 WebPilot. Усі права захищені.',
         // Послуги
