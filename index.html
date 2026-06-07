@@ -1507,17 +1507,19 @@
     }
 
     @media (max-width: 639px) {
+      .reviews__clip {
+        overflow: hidden;
+      }
+
       .reviews__grid {
         display: flex;
-        overflow: hidden;
         gap: 0;
         transition: transform 0.35s ease;
         touch-action: pan-y;
       }
 
       .review-card {
-        min-width: 100%;
-        flex-shrink: 0;
+        flex: 0 0 100%;
       }
 
       .reviews__dots {
@@ -2208,6 +2210,7 @@
         <div class="section__header">
           <h2 class="section__title" data-i18n="reviews.title">What our clients say</h2>
         </div>
+        <div class="reviews__clip">
         <div class="reviews__grid js-reviews-grid">
           <div class="review-card">
             <div class="review-card__stars">★★★★★</div>
@@ -2253,6 +2256,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
         <div class="reviews__dots js-reviews-dots" aria-hidden="true">
           <span class="reviews__dot is-active"></span>
